@@ -1,0 +1,42 @@
+body {
+    width: 500px;
+}
+
+html, body {
+    font-size: 14px;
+    padding: 0;
+    margin-: 0;
+    line-height: 1.66;
+    font-family:'Helvetica','Arial','Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+}
+
+.list-tweet {
+    margin: 1em;
+}
+
+a {
+    color: #2377BB;
+    text-decoration: none;
+}
+
+.inner-w-img {
+    margin-left: 2.8em;
+}
+
+.list-tweet-img {
+    float: left;
+    padding-right: .8em;
+    padding-bottom: .4em;
+    height: 2em;
+    width: 2em;
+}
+
+.list-tweet-status .status_link, .list-tweet-status .source, .list-tweet-status .text, .retweet-info .status_link, .retweet-info .source, .retweet-info .text {
+    font-style: normal;
+    font-size: .8em;
+    color: #777;
+    text-decoration: none;
+    float: left;
+    min-height: 15px;
+    padding-top: .3em;
+}

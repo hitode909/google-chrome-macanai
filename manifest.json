@@ -1,0 +1,20 @@
+{
+    "name": "まかない",
+    "version": "1.0",
+    "description": "株式会社はてなのオフィスランチをメニューを紹介します。",
+    "permissions" : [
+        "https://mobile.twitter.com/",
+        "https://api.twitter.com/"
+    ],
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "background_page" : "background.html",
+    "browser_action": {
+        "default_icon": "icon19.png",
+        "default_title": "まかない",
+        "popup": "popup.html"
+    }
+}
