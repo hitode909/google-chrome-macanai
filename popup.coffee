@@ -18,6 +18,5 @@ $ ->
     dataType: 'html'
   .success (html) ->
 
-    tweet = $(html).find('.list-tweet:eq(0)')
+    tweet = $(html).find('.tweet:eq(0)')
     $('body').append tweet
-

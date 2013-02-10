@@ -18,7 +18,7 @@ $(function() {
     dataType: 'html'
   }).success(function(html) {
     var tweet;
-    tweet = $(html).find('.list-tweet:eq(0)');
+    tweet = $(html).find('.tweet:eq(0)');
     return $('body').append(tweet);
   });
 });
